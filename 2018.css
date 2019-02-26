@@ -1,0 +1,197 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    background-image: linear-gradient(-25deg, #93a5cf, #e4efe9);
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    text-shadow: 0 0 0 rgba(255, 255, 255, 0);
+    transition: text-shadow 1s;
+    color: #888;
+}
+
+a.twitter {
+    color: #1da1f2;
+}
+
+a.github {
+    color: #fff;
+}
+
+a.so {
+    color: #f48024;
+}
+
+a.cv {
+    color: #e1ecf4;
+}
+
+a.pgp {
+    color: #b0d400;
+}
+
+a.email {
+    color: #f5f5dc;
+}
+
+a:hover {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1);
+}
+
+#main {
+    min-height: 18em;
+}
+
+#card {
+    /* inlined noise.png */
+    background: #24292e url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyBAMAAADsEZWCAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAkUExURSInLCQpLigtMiEmKyUqLyMoLSkuMyYrMCAlKicsMR8kKSovNE/Zs0UAAARFSURBVDjLdZI7WxoJGIW/4Wq0ERkETAPMDAI2IMrA0gCDgNqEiw5ow4iAQgMIAbXhrqMN4KCCDWoU3TSRoNkkf26rNLvJDzjP8573HFhtkidx3QdTih5xZPy2JMldWrrSS4MAfqB7d29Ry4QvMzmhtWY6reOw9tMeOZaBvFgKOF2Ly10s+mTvVonqG/UXMtzNG8D89Uoy7JB3wqxfP3BPTaS9WGndJcWvANk2ehbkwz3HdiW4OpsbKXzMFClgE37oDH6eGTFWziSN/CZyRrKGQrkREnEUqA4MvXPReZV9C5yhdDq7lreIG1H38jX8CfoD4Kkr4owViRSTBvm7PHUamSjzx+WtDA1dk5h5j43LiW6tuE3oUNPw4OY0wKPy8Cu8x2T8ym+gnSJ6n4Oy71sjOHmnF79WU57asfMDYDK07ZAf7X5M4hz8vowpicGWYBSWqQobdMNsfEVdyZFiKpzutXJWGBRlCwv5Q50lYfbDzcsGiiUTp/7azz50P88T2s0JFFfkoldzy873Mw7u+PwSvQN3irbTS/9Qi7S+E4OoSb+uYdq1W6IGTnvQbsvOHWJHKlo20xc4vjTHObI+VsMzMmDlT87Y6n08218J8Z5dJXyudXh/CmBVmwW7pnei6oa+quXJ8hHXmzZ9sV+BSG8DS+jUqPS/c8DDsZ76uCWvyPWxfb9tZ7AiasqFkpsMD+g/wYEi5IeRUEjiSLWwokKR5V9SoAEnmFa1X0Q3PU1JpXAbDjsQ3hgjBPAstGavQeC39x7UXNrpE4Yees4vIlcYxkuZh5fIzGLoyLz1yI9Hg2KF+Uh+UldATkwPdjVmY1LEawlYjjlnLWusYlfsBcgsbgx3Wu01xyuT5IRid/jaEKO9cRb6k+oFrhzASxG1ftqrxb2U5pVxDsxzIBaaB6bp4EKSOatzVRcP3/eWHI62zA8X6uLhS3e2LLoc2ZsOUFrGQ19vebb5CEJjtkbelkrOSsZZrTRVRnqovnz8GY8CanXP1PCQwNAKnijLsCL93g8oPWO0DGc5AtkUTtva3dWtZ400R8YliphUmZ8D88oS64lvUp+nEzd9lj9HrhL1m/Hehgamd5R7vFSgVkOKDSc3U3d/m7XEGDLMh7ROxqi3WzFOYKjvaPhKjcpzIA1pqQD0BkFrO1UwWuPzlN7nn3UIbYxWrEJEoK6UBvF7m+/oolJIHqezHdkEfnpPybJw2Zr8vQagS8TwExM994mMGa3k3EXpLCvLz1epR5ivQsvvSxH+oUcS4IhDNoJMeQ9ejAh86dT0nAwpFhs4imGRgGWy9j2sCS/sQlEyqN0HH9v333wzni5GNOpu19/z0h8d0D7orEZ5KaR06tzr2VjCIi2UrftiUwDiqijeo238WN8WnP4oGdl9ov0wWRgFgKyYyIZrSUFd3EoXU6t9oZmdHQb5zQA0dE9t5PQ3+8ESlisfwted/33oXzLlmy3edVUbAAAAAElFTkSuQmCC");
+    color: #efece7;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1.2em;
+}
+
+h1, h2 {
+    margin: 0.2em 0;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 100%;
+}
+
+#card img {
+    display: none;
+    float: right;
+    border: 1px solid #bdbab5;
+    width: 3.5em;
+    height: 3.5em;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1));
+    margin: 3em 1em 1em;
+}
+
+ul {
+    margin: 0.7em 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+li {
+    margin: 0.2em 0.8em;
+}
+
+footer, ul.secondary {
+    font-size: 90%;
+}
+
+@keyframes throw-card {
+    0% {
+        transform: translateX(-130%) translateY(-200%) rotate(160deg);
+    }
+    100% {
+        transform: translateX(-50%) translateY(0%) rotate(-2deg);
+    }
+}
+
+@keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Try to keep "Software Engineer" in one line, instead of "Senior Software". There are some widths where this doesn't
+   work, but it can't be perfect anyway because the font size may be slightly different or my preferred font might even
+   not be available */
+@media (min-width: 11em) {
+    .prefer-nobr {
+        white-space: nowrap;
+    }
+}
+
+/* Show image, align links horizontally and increase the horizontal margin of the <hr>. */
+@media (min-width: 20em) {
+    #card img, li {
+        display: inline;
+    }
+    hr {
+        margin: 3em 3em 1em;
+    }
+}
+
+/* Full experience: "Throw" animation, slight rotation, shadow. */
+@media screen and (min-width: 30em) {
+    body {
+        overflow-x: hidden;
+    }
+    #card {
+        width: 25em;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        left: 50%;
+        box-shadow: 4px 3px 23px 0 rgba(50, 50, 50, 0.75);
+        transform: translateX(-50%) rotate(-2deg);
+        animation: 0.75s ease-out 0s 1 throw-card;
+    }
+    footer {
+        animation: 5s ease-in-out 0s 1 fade-in;
+    }
+    /* And if the screen is even _high_ enough, offset the card a bit from the top. */
+    @media (min-height: 30em) {
+        #main {
+            min-height: 24em;
+        }
+        #card {
+            margin-top: 5em;
+            margin-bottom: 5em;
+        }
+    }
+}
+
+@media print {
+    body {
+        background: none;
+    }
+    #card {
+        width: 25em;
+        margin: 2em auto;
+        border: 1px solid #ccc;
+        background: none;
+    }
+    #card, a.github, a.cv, a.email {
+        color: #444;
+    }
+    a:after {
+        content: " [" attr(href) "]";
+        font-size: 80%;
+        color: #003;
+    }
+    h1, h2 {
+        color: #000;
+    }
+    hr {
+        background-image: none;
+        height: 0;
+        border: 0.5pt solid #ccc;
+    }
+    #card ul {
+        text-align: left;
+        list-style-type: square;
+    }
+    li {
+        display: list-item;
+    }
+}
